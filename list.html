@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>List tags by anurag</title>
+  </head>
+  <body>
+    <font face="Roboto, Arial, sans-serif" >
+<!-- ############## HEADER ########### -->
+      <h3>There are three list types in HTML:</h3>
+      <ul>
+        <li>
+          unordered <b>list</b> — used to group a set of related items in no
+          particular order.
+        </li>
+        <li>
+          ordered <b>list</b> — used to group a set of related items in a
+          specific order.
+        </li>
+        <li>
+          description <b>list</b> — used to display name/value pairs such as
+          terms and definitions.
+        </li>
+      </ul>
+      <!-- ############ unodered list  ############### -->
+      <details >
+        <summary>
+          Unorder list - This will list items using plain bullets.
+        </summary>
+        <blockquote>
+          An unordered list is a collection of related items that have no
+          special order or sequence. Each
+          item in the list is marked with a bullet(default).
+          
+          <pre>Attribute : < tag type="_value">< / tag >
+CSS : style="list-style-type:_value";</pre>
+          
+        </blockquote>
+        <ul>
+            <li type="disc"><b>disc</b>	Sets the list item marker to a bullet 
+            </li>
+            <li type="circle"><b>circle</b>	Sets the list item marker to a circle  or with css style="list-style-type: disc";
+            </li>
+            <li type="square"><b>square</b>	Sets the list item marker to a square
+            </li>
+            <li type="none"><b>none</b>	The list items will not be marked
+            </li>
+        </ul>
+      </details>
+      <details>
+        <summary>
+          Order list - List displays elements in numbered format.
+        </summary>
+        <blockquote>
+             We can use ordered list to represent items either in numerical order format or alphabetical order format,
+        </blockquote>
+        <ol>
+          <li type="1">
+            <b>type="1"</b> The list items will be numbered with numbers
+            (default)
+          </li>
+          <li  type="A">
+            <b>type="A"</b> The list items will be numbered with uppercase
+            letters
+          </li>
+          <li type="a">
+            <b>type="a"</b> The list items will be numbered with lowercase
+            letters
+          </li>
+          <li type="I">
+            <b>type="I" </b> The list items will be numbered with uppercase
+            roman numbers
+          </li>
+          <li type="i">
+            <b>type="i"</b> The list items will be numbered with lowercase roman
+            numbers
+          </li>
+        </ol>
+      </details>
+      <details open>
+        <summary>
+          Description list - is a list of items with a description of each item term.
+        </summary>
+        
+        <dl>
+          <dt><b>&lt;dl> tag</b></dt>
+          <dd> defines the description list.</dd>
+
+          <dt><b>&lt;dt> tag</b></dt>
+          <dd>defines data term.</dd>
+
+          <dt><b>&lt;dd> tag</b></dt>
+          <dd>defines data description.</dd>
+          
+        </dl>
+      </details>
+
+      <h2>default css setting </h2>
+          <pre>
+ul {
+    display: block;
+    list-style-type: disc;
+    //for ol tag
+    //list-style-type:decimal;
+    margin-top: 1em;
+    margin-bottom: 1 em;
+    margin-left: 0;
+    margin-right: 0;
+    padding-left: 40px;
+    }
+dl {
+    display: block;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    margin-left: 0;
+    margin-right: 0;
+      }
+                    
+          </pre>
+    </font>
+  </body>
+</html>
